@@ -182,9 +182,7 @@ body {
  */
 
 #slider #segment-1 .carousel-item img,
-#slider #segment-2 .carousel-item img,
-#posts .post__list a.post__item>img,
-#album .filtr-container .filtr-item img {
+#slider #segment-2 .carousel-item img {
     -webkit-object-fit: cover;
     -moz-object-fit: cover;
     -ms-object-fit: cover;
