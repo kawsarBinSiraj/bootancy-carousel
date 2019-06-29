@@ -31,7 +31,6 @@ $(window).on('load', function () {
 
 $(document).ready(function () {
 
-
     // Bootstrap carousel
     // for Main carousel
     $(function () {
@@ -41,12 +40,5 @@ $(document).ready(function () {
             pause: "null"
         })
     });
-
-     // Init js-tilt 
-     if ($(".js-tilt").length > 0) {
-        $('.js-tilt').tilt({
-            scale: 1.2
-        })
-    }
 
 });
