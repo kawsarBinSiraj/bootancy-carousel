@@ -444,7 +444,7 @@ body {
     z-index: 999;
     width: 50px;
     height: 50px;
-    top: 54%;
+    top: calc(50% + 50px);
     background: transparent;
     font-size: 24px;
     color: #fff !important;
@@ -465,7 +465,7 @@ body {
 }
 
 .carousel-control-1.carousel-control-prev {
-    top: 40%;
+    top: calc(100% - 50% - 100px);
     left: calc(100% - 85px);
 }
 
